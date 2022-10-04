@@ -11,6 +11,8 @@ const Post = () => {
 
     const postData = async (e) => {
         e.preventDefault();
+        var date= new Date();
+        console.log(date)
         const formData = new FormData();
         formData.append("postImage", post.postImage);
         formData.append("name", post.name);
