@@ -8,8 +8,7 @@
 }
 
 .location{
-    float: right;
-    
+    float: right;   
 }
 .discription{
     margin-left: 10%;
@@ -23,4 +22,46 @@
     width: 100px;
     height: 40px;
     margin-left: 38%;
+}
+@media screen and (max-width:500px){
+    .form-container{
+        margin: auto;
+        margin-top: 50px;
+        width: 80%;
+        height: 220px;
+        border: 1px solid gray;
+        padding: 20px;
+    }
+    .auther{
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 20px;
+        border: 1px solid gray;
+        height: 20px;
+    }
+
+    .location{
+        width: 80%;
+        display: block;
+        float: none;
+        margin-left: 10%;
+        margin-bottom: 10px;
+    }
+    .discription{
+        width: 80%;
+        margin-left: 10%;    
+    }
+    .post-divs {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .post-button{
+        width: 100px;
+        height: 40px;
+        margin-left: 38%;
+    }
+    .uploads{
+        width: 80%;
+        margin-left: 10%;
+    }
 }

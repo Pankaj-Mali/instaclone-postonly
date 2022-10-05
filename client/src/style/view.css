@@ -7,3 +7,11 @@
 body{
     background-color:#f9f9f9;
 }
+
+@media screen and (max-width:500px){
+    .card-container{
+        margin: auto;
+        margin-top: 10px;
+        width: 80%;    
+    }
+}

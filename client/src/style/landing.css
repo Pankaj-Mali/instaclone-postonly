@@ -52,3 +52,29 @@
     font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+@media screen and (max-width: 450px) {
+    .landingpage{
+        display: block;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .left-container{
+        height: 50vh;
+        width: 100%;
+    }
+    .right-container{
+     height: 50vh;
+     width: 100%;
+    }
+    .landing-button{
+        margin-left: 20%;
+    }
+    .landing-text > p{
+        text-shadow: 20px;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+}
