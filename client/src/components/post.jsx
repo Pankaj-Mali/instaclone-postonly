@@ -33,13 +33,6 @@ const Post = () => {
             Navigator("/postview")
         }
 
-        //  fetch('http://localhost:8080/addPost', {
-        //     method: "POST",
-        //     body: formData,
-        //     headers: {
-        //     'Content-Type': 'multipart/form-data'
-        //     }
-        //  }).then((res) => res.json).then((data) => console.log(data))
     }
     return (
         <>
@@ -47,7 +40,7 @@ const Post = () => {
             <div className='form-container'>
                 <form className='form-box' onSubmit={postData} method="POST">
                     <div className='post-divs'>
-                        <input type="file" id='upload' onChange={(e) => setPost({ ...post, postImage: e.target.files[0] })} name='postImage' required />
+                        <input type="file" id='upload' onChange={(e) => setPost({ ...post, postImage: e.target.files[0] })} name='postImage'className='uploads' required />
                     </div>
                     <div className='post-divs'>
                         <input type="text" onChange={(e) => setPost({ ...post, name: e.target.value })} placeholder="Author" className='auther' name='name' required />
